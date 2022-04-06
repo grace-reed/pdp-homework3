@@ -1,0 +1,168 @@
+/* Global Styles */
+
+#bs-example-navbar-collapse-1 {
+    font-family: "Cinzel";
+}
+
+#bs-example-navbar-collapse-1 a {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+#logo {
+    font-family: "PT Serif", serif;
+    font-size: 48px;
+}
+
+#about-container,
+#donate-container {
+    font-family: "Hind";
+    font-size: 14px;
+    text-align: left;
+    padding-bottom: 100px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#top {
+    min-height: calc(
+        100% - 71px
+    ); /* 71 = height + padding + margin (of navbar) */
+    position: relative;
+}
+
+#lookbook-images,
+#collection-images {
+    padding-bottom: 100px;
+}
+
+/* Footer Styles */
+
+footer {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#footerul > li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#footerul > li:first-of-type {
+    padding-left: 0px;
+}
+
+#footerul > li:last-of-type {
+    padding-right: 0px;
+}
+
+/* Home  Styles */
+
+#homedarken {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#homedarken:hover {
+    -webkit-filter: brightness(50%);
+    filter: brightness(30%);
+}
+
+#nav-images img {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+#nav-images img:hover {
+    -webkit-filter: brightness(50%);
+    filter: brightness(30%);
+}
+
+#nav-images .col-md-8,
+.col-md-12 {
+    padding: 3px;
+}
+
+.mid h2 {
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+    pointer-events: none;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 40px;
+    font-family: "Cinzel";
+    transform: translate(-50%, -50%);
+}
+
+/* Collection Styles */
+
+#collection-header a {
+    font-size: 20px;
+    color: #888888;
+    text-decoration: none;
+}
+
+#collection-header a:hover {
+    color: #333333;
+}
+
+#collection-images img {
+    width: 500px;
+    padding: 4px;
+    margin-bottom: 14px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#collection-images p {
+    font-family: "Fredericka the Great", serif;
+    font-size: 30px;
+}
+
+#collection-wrapper {
+    font-family: "Cinzel", serif;
+}
+#collectioncaption {
+    font-family: "Hind" !important;
+    font-size: 15px !important;
+}
+
+/* Lookbook Styles */
+
+#lookbook-images {
+    line-height: 1em;
+
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 1em;
+    -moz-column-gap: 1em;
+    column-gap: 1em;
+}
+
+#lookbook-images img {
+    /* Just in case there are inline attributes */
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 1em;
+}
